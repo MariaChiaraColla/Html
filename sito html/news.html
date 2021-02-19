@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Avengers</title>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="stile.css" type="text/css"/>
+        <script language="JavaScript" type="text/JavaScript" src="javascript.js"></script>
+    </head>
+
+    <body>
+        <figure>
+            <img src="menu.jpg" width="100%"/>
+        </figure>
+        <menu>
+            <button type="button"><a href="home.html" onclick="benvenuto()">Home</a></button>
+            <button type="button"><a href="schedaTecnica.html">Scheda Tecnica</a></button>
+            <button type="button"><a href="attori.html">Attori</a></button>
+            <button type="button"><a href="news.html">News</a></button>
+        </menu>
+
+        <div class="testoCentrato">
+
+            <header><h1>Iscrivi alla Nostra news letters</h1></header>
+            <div>
+                <label class="label">Nome:</label>
+                <input class="nome" type="text" onchange="change()"/>
+            </div>
+
+            <br>
+            <br>
+
+            <div>
+                <input class="sub" type="submit" value="Subscribe" disabled onclick="sub()"/>
+                <input class="unsub" type="submit" value="Unsubscribe" style="visibility: hidden" onclick="Delete()"/>
+            </div>
+
+        </div>
+
+        <article>
+            <div class="home"><a href="home.html" onclick="benvenuto()">Home</a></div>
+        </article>
+
+    </body>
+
+</html>
